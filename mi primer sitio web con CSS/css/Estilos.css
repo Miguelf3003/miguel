@@ -1,0 +1,39 @@
+h1,h2,h3,h4,h5,h6{
+color:white; /*Esta etiqueta sirve para cambiar el color de la fuente*/
+}
+
+h1{
+font-size:50px;     /*Esta etiqueta sirve para cambiar el tamaño de la fuente*/
+}
+
+p a {               /*Esta etiqueta sirve para indicar que e lo que queremos que busque el editor de codigo, en este caso buscara en las etiquetas <p> las etiquetas <a> que haya dentro y cambiara el color y el tamaño si las encuentra*/
+font-size:20px;
+color:white;
+}   
+
+ .Green {
+ 	font-size:30px; /*existen unidades de medida las cuales son %, px, rem, em. */
+ color:white;
+}
+
+div {
+height:70px;
+width:500spx;
+background:#ffffff;
+margin:20px 50px;
+padding:30px;
+border:10px solid #000;
+display: inside-block;
+}
+
+p{
+color:white;
+}
+
+div p{
+	color:black;
+}
+
+body {
+background:url(../imagenes/change.jpg);
+}
